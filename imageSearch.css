@@ -1,0 +1,24 @@
+nav {
+  padding: 1px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+form {
+  padding-left: 40%;
+  margin-top: 150px;
+}
+form input {
+  display: block;
+  border-radius: 5px;
+}
+
+.submitButton {
+  margin-top: 10px;
+}
+
+.searchBar {
+  width: 300px;
+}/*# sourceMappingURL=imageSearch.css.map */

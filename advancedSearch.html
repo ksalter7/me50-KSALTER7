@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="advancedSearch.css" />
+  </head>
+  <body>
+    <nav class="advancedSearchNav">
+      <button class="backHomeButton"><a href="index.html">Back Home</a></button>
+      <button class="imageSearchButton"><a href="imageSearch.html">Image Search</a></button>
+    </nav>
+    <div class="topSection">
+      <h2 style="margin-left: 10px">Advanced Search</h2>
+      <div class="lineFeature"></div>
+    </div>
+    <form action="https://www.google.com/search">
+      <div class="row">
+        <p>All these words:</p>
+        <input class="textField" style="display: none" type="submit" />
+        <input type="text" name="q" />
+      </div>
+      <div class="row">
+        <p>This exact word or phrase:</p>
+        <input class="textField" style="display: none;" type="submit" />
+        <input type="text" name="q" />
+      </div>
+      <div class="row">
+        <p>Any of these words:</p>
+        <input class="textField" style="display: none;" type="submit" />
+        <input type="text" name="q" />
+      </div>
+      <div class="row">
+      <p>None of these words:</p>
+      <input class="textField" style="display: none;" type="submit" />
+      <input type="text" name="q" />
+      </div>
+      <div class="row" id="advancedSubmit">
+        <p></p>
+        <button type="submit" action="https://www.google.com/search">Submit Search</button>
+      </div>
+    </form>
+  </body>
+</html>

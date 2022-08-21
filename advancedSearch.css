@@ -1,0 +1,51 @@
+form {
+  margin-top: 150px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+nav {
+  padding: 1px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.submitButton {
+  margin-top: 10px;
+}
+
+.searchBar {
+  width: 300px;
+}
+
+.lineFeature {
+  border-bottom: 1px solid black;
+}
+
+.row {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+.row #advancedSubmit {
+  display: grid;
+}
+
+#advancedSubmit button {
+  width: 150px;
+  font-size: smaller;
+  background-color: #8ab4f8;
+  border-color: #8ab4f8;
+  font-weight: thin;
+}
+
+#advancedSubmit button:hover {
+  background-color: #6894dc;
+}
+
+#advancedSubmit button:active {
+  background-color: #6894dc;
+}/*# sourceMappingURL=advancedSearch.css.map */

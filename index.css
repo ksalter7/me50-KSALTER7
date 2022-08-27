@@ -1,15 +1,33 @@
-form {
-  padding-left: 40%;
-  margin-top: 150px;
+* {
+  background-color: #2c2d31;
 }
-form input {
-  display: block;
-  border-radius: 5px;
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 90vh;
+}
+main p {
+  margin-bottom: 30vh;
+}
+
+input,
+button {
+  background-color: #bdc1c6;
+}
+
+h1,
+p {
+  color: #bdc1c6;
 }
 
 nav {
-  padding-left: 80%;
-  display: inline;
+  align-self: flex-end;
+}
+
+h1 {
+  align-self: center;
 }
 
 .submitButton {
@@ -17,25 +35,33 @@ nav {
 }
 
 .searchBar {
-  width: 300px;
+  height: 35px;
+  width: 350px;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  border-radius: 20px;
 }
 
-.nextTo input {
-  display: inline;
-  margin-left: 10px;
-}
-
-h2 {
-  text-align: center;
-}
-
-.center {
+form {
   display: flex;
-  width: 100px;
-  height: 100px;
+  flex-direction: column;
+  align-self: center;
+}
+form input {
+  border-radius: 20px;
+}
+form .nextTo {
+  align-self: center;
 }
 
-h3 {
-  font-weight: 50px;
-  text-align: center;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 100vh;
+}
+footer p {
+  color: #bdc1c6;
+  margin: 0px 10px;
 }/*# sourceMappingURL=index.css.map */

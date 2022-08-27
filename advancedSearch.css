@@ -1,37 +1,37 @@
-form {
-  margin-top: 150px;
-  margin-left: 20px;
-  display: grid;
-  grid-template-columns: auto;
+* {
+  background-color: #2c2d31;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 70vh;
 }
 
 nav {
-  padding: 1px;
-  display: block;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  align-self: flex-end;
+}
+nav button {
+  background-color: #bdc1c6;
 }
 
-.submitButton {
-  margin-top: 10px;
+.topSection {
+  color: #bdc1c6;
+  align-self: center;
 }
 
-.searchBar {
-  width: 300px;
+form {
+  margin: 0px 20px;
+  color: #bdc1c6;
+  margin: 20vh;
+  display: grid;
+  grid-template-columns: auto;
 }
-
-.lineFeature {
-  border-bottom: 1px solid black;
-}
-
-.row {
-  margin-top: 10px;
+form .row {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-}
-.row #advancedSubmit {
-  display: grid;
+  margin-top: 10px;
 }
 
 #advancedSubmit button {
@@ -40,12 +40,16 @@ nav {
   background-color: #8ab4f8;
   border-color: #8ab4f8;
   font-weight: thin;
+  justify-self: end;
 }
 
-#advancedSubmit button:hover {
-  background-color: #6894dc;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 100vh;
 }
-
-#advancedSubmit button:active {
-  background-color: #6894dc;
+footer p {
+  color: #bdc1c6;
+  margin: 0px 10px;
 }/*# sourceMappingURL=advancedSearch.css.map */
